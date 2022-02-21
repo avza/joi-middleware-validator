@@ -1,0 +1,27 @@
+{
+  "name": "joi-middleware-validator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "style:check": "prettier --check lib/**/*.js test/**/*.js",
+    "style:fix": "prettier --write lib/**/*.js test/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avza/joi-middleware-validator.git"
+  },
+  "author": "Alisson Souza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avza/joi-middleware-validator/issues"
+  },
+  "homepage": "https://github.com/avza/joi-middleware-validator#readme",
+  "dependencies": {
+    "joi": "^17.6.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1"
+  }
+}
